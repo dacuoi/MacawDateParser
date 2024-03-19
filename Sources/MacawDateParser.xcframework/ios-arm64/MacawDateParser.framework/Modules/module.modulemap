@@ -1,0 +1,11 @@
+framework module MacawDateParser {
+  umbrella header "MacawDateParser.h"
+  export *
+
+  module * { export * }
+}
+
+module MacawDateParser.Swift {
+  header "MacawDateParser-Swift.h"
+  requires objc
+}
