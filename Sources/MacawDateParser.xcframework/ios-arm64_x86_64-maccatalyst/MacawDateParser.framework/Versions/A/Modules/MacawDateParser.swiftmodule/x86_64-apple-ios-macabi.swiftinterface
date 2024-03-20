@@ -18,10 +18,7 @@ import _SwiftConcurrencyShims
   public static func containsVietnameseCharacters(for string: Swift.String) -> Swift.Bool
   @objc deinit
 }
-public struct User {
-  public init(userId: Swift.String, name: Swift.String)
-}
 @_hasMissingDesignatedInitializers public class MacawAssigneeParser {
-  public static func stringToAssignee(_ timeString: Swift.String, assignedNames: [MacawDateParser.User], myUserInfo: MacawDateParser.User, isVietnamese: Swift.Bool = false) -> [MacawDateParser.User]
+  public static func stringToAssignee(_ timeString: Swift.String, assignedNames: [[Swift.String : Swift.String]], myUserInfo: [Swift.String : Swift.String], isVietnamese: Swift.Bool = false) -> [[Swift.String : Swift.String]]
   @objc deinit
 }

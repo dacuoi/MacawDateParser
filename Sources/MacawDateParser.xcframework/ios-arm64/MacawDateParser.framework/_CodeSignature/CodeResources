@@ -18,23 +18,23 @@
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		wFJfGQzmi4O9sv7vKj67bdVqWro=
+		GB3fGvEEsp0tWrMe6LktW6QKbKM=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		FsvOpJV/0IEONFD19b/xOMfMmQc=
+		AD8DnZJQVvwxOhPs0qDsUjhmGPw=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		m3XnQc7LVlWtYHjdPtUJ1Y9TerI=
+		k5wTzwN2ja0hNwzGgmKu+vFvnW0=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		FsvOpJV/0IEONFD19b/xOMfMmQc=
+		AD8DnZJQVvwxOhPs0qDsUjhmGPw=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		/kRPfVgpIyQBn9MIMB0RrCTx3us=
+		VuMSHRd4WheYf9a1lgsI8wWnOTw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3l24+XZ6JH5lmmKxeXfh+qrhMf7Ug4m4+4IebfBaTuk=
+			y/SSDpWFb9/DxVNUrfmPYYoj7mot+YGMY91ORBEXPGE=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q98xTS11vtBbewi7nn8l8IVUV5ROPfzqO55FOPHxoQ4=
+			TJiXL4JCYimc2LzEz+h9g9Jfccy7ChN/vDKtoJknvOA=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gnc8D6KTGbRk9ju1QWJg36a2PgXGO7+ndjG6Haw5M+c=
+			7ofuAWfdKDEfXjNN0cg8TJeOY3iYLaNU1cmr8N9ViR0=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q98xTS11vtBbewi7nn8l8IVUV5ROPfzqO55FOPHxoQ4=
+			TJiXL4JCYimc2LzEz+h9g9Jfccy7ChN/vDKtoJknvOA=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4m4IgeeFJKmatzDOrPHGZu0xgeFVLyNJWd/sHP5LUcw=
+			zmU28Ka4q1sEGMBeREDJkKV9aUln10+BnO6SWG5LBEQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

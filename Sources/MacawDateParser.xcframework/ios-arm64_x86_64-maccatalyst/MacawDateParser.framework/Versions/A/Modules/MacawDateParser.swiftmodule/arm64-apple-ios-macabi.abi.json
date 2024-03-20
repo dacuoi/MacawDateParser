@@ -72,7 +72,8 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -109,7 +110,8 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -146,7 +148,8 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -220,7 +223,8 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -275,50 +279,13 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "User",
-        "printedName": "User",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(userId:name:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "User",
-                "printedName": "MacawDateParser.User",
-                "usr": "s:15MacawDateParser4UserV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:15MacawDateParser4UserV6userId4nameACSS_SStcfc",
-            "mangledName": "$s15MacawDateParser4UserV6userId4nameACSS_SStcfc",
-            "moduleName": "MacawDateParser",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:15MacawDateParser4UserV",
-        "mangledName": "$s15MacawDateParser4UserV",
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "MacawDateParser",
         "declAttributes": [
-          "AccessControl"
+          "RawDocComment"
         ]
       },
       {
@@ -334,13 +301,27 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[MacawDateParser.User]",
+                "printedName": "[[Swift.String : Swift.String]]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "User",
-                    "printedName": "MacawDateParser.User",
-                    "usr": "s:15MacawDateParser4UserV"
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
                   }
                 ],
                 "usr": "s:Sa"
@@ -354,22 +335,50 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[MacawDateParser.User]",
+                "printedName": "[[Swift.String : Swift.String]]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "User",
-                    "printedName": "MacawDateParser.User",
-                    "usr": "s:15MacawDateParser4UserV"
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
                   }
                 ],
                 "usr": "s:Sa"
               },
               {
                 "kind": "TypeNominal",
-                "name": "User",
-                "printedName": "MacawDateParser.User",
-                "usr": "s:15MacawDateParser4UserV"
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
               },
               {
                 "kind": "TypeNominal",
@@ -380,13 +389,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15MacawDateParser0a8AssigneeC0C08stringToD0_13assignedNames10myUserInfo12isVietnameseSayAA0J0VGSS_AjISbtFZ",
-            "mangledName": "$s15MacawDateParser0a8AssigneeC0C08stringToD0_13assignedNames10myUserInfo12isVietnameseSayAA0J0VGSS_AjISbtFZ",
+            "usr": "s:15MacawDateParser0a8AssigneeC0C08stringToD0_13assignedNames10myUserInfo12isVietnameseSaySDyS2SGGSS_AiHSbtFZ",
+            "mangledName": "$s15MacawDateParser0a8AssigneeC0C08stringToD0_13assignedNames10myUserInfo12isVietnameseSaySDyS2SGGSS_AiHSbtFZ",
             "moduleName": "MacawDateParser",
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -747,2436 +757,2436 @@
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 291,
+      "offset": 408,
       "length": 1053,
       "value": "[\"\\b(?:td|tod|tmr|tmrw|sun|mon|tue|web|thu|fri|sat)\\b\", \"(?:\\b(?:td|tod|tmr|tmrw|sun|mon|tue|web|thu|fri|sat)\\s\\b)\", \"(?:\\b\\s(?:td|tod|tmr|tmrw|sun|mon|tue|web|thu|fri|sat)\\b)\", \"\\b(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\\b\", \"(?:\\b(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\\s\\b)\", \"(?:\\b\\s(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\\b)\", \"\\b\\d{1,2}[-\/]\\d{1,2}[-\/]\\d{4}\\b\", \"\\b\\d{4}[-\/]\\d{1,2}[-\/]\\d{1,2}\\b\", \"\\b\\d{1,2}[-\/]\\d{1,2}\\b\", \"\\b(?:morning|noon|afternoon|evening)\\b\", \"(?:\\b(?:morning|noon|afternoon|evening)\\s\\b)\", \"(?:\\b\\s(?:morning|noon|afternoon|evening)\\b)\"]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 1561,
+      "offset": 1678,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 1590,
+      "offset": 1707,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 2098,
+      "offset": 2215,
       "length": 44,
       "value": "\"Regex error: \""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 2141,
+      "offset": 2258,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 2163,
+      "offset": 2280,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 2980,
+      "offset": 3211,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 3009,
+      "offset": 3240,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 3197,
+      "offset": 3428,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 3529,
+      "offset": 3760,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 3730,
+      "offset": 3961,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 4098,
+      "offset": 4329,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 4299,
+      "offset": 4530,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 5093,
+      "offset": 5324,
       "length": 44,
       "value": "\"Regex error: \""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 5136,
+      "offset": 5367,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 5158,
+      "offset": 5389,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 5419,
+      "offset": 5747,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 5586,
+      "offset": 5914,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 5871,
+      "offset": 6199,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 5920,
+      "offset": 6248,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 6400,
+      "offset": 6728,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 6453,
+      "offset": 6781,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 6507,
+      "offset": 6835,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 6559,
+      "offset": 6887,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 6612,
+      "offset": 6940,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 6667,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "Array",
-      "offset": 6722,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "Array",
-      "offset": 6854,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "StringLiteral",
       "offset": 6995,
-      "length": 3,
-      "value": "\"|\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "StringLiteral",
-      "offset": 7069,
-      "length": 3,
-      "value": "\"|\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "StringLiteral",
-      "offset": 7136,
-      "length": 3,
-      "value": "\"|\""
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 7254,
+      "offset": 7050,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "Array",
+      "offset": 7182,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 7399,
+      "offset": 7323,
       "length": 3,
       "value": "\"|\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 7474,
+      "offset": 7397,
       "length": 3,
       "value": "\"|\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 7543,
+      "offset": 7464,
       "length": 3,
       "value": "\"|\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 7664,
+      "offset": 7582,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 7801,
+      "offset": 7727,
       "length": 3,
       "value": "\"|\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 7874,
+      "offset": 7802,
       "length": 3,
       "value": "\"|\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 7939,
+      "offset": 7871,
       "length": 3,
       "value": "\"|\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 8063,
+      "offset": 7992,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 8204,
+      "offset": 8129,
       "length": 3,
       "value": "\"|\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 8278,
+      "offset": 8202,
       "length": 3,
       "value": "\"|\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 8345,
+      "offset": 8267,
       "length": 3,
       "value": "\"|\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 8475,
+      "offset": 8391,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 8624,
+      "offset": 8532,
       "length": 3,
       "value": "\"|\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 8700,
+      "offset": 8606,
       "length": 3,
       "value": "\"|\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 8771,
+      "offset": 8673,
       "length": 3,
       "value": "\"|\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 8901,
+      "offset": 8803,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 9050,
+      "offset": 8952,
       "length": 3,
       "value": "\"|\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 9126,
+      "offset": 9028,
       "length": 3,
       "value": "\"|\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 9197,
-      "length": 3,
-      "value": "\"|\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "StringLiteral",
-      "offset": 9422,
-      "length": 3,
-      "value": "\"|\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "StringLiteral",
-      "offset": 9492,
+      "offset": 9099,
       "length": 3,
       "value": "\"|\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 10781,
+      "offset": 9229,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "StringLiteral",
+      "offset": 9378,
+      "length": 3,
+      "value": "\"|\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "StringLiteral",
+      "offset": 9454,
+      "length": 3,
+      "value": "\"|\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "StringLiteral",
+      "offset": 9525,
+      "length": 3,
+      "value": "\"|\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "StringLiteral",
+      "offset": 9750,
+      "length": 3,
+      "value": "\"|\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "StringLiteral",
+      "offset": 9820,
+      "length": 3,
+      "value": "\"|\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "Array",
+      "offset": 11109,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 10810,
+      "offset": 11138,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 11030,
+      "offset": 11358,
       "length": 59,
       "value": "\"Invalid regular expression: \""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 11088,
+      "offset": 11416,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 11380,
+      "offset": 11708,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 11403,
+      "offset": 11731,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 11424,
+      "offset": 11752,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 11446,
+      "offset": 11774,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 11470,
+      "offset": 11798,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 11494,
+      "offset": 11822,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 11649,
+      "offset": 11977,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 11684,
+      "offset": 12012,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 11795,
+      "offset": 12123,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 11838,
+      "offset": 12166,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 11880,
+      "offset": 12208,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 12018,
+      "offset": 12346,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 12064,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12188,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12318,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "IntegerLiteral",
       "offset": 12392,
-      "length": 1,
-      "value": "0"
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "BooleanLiteral",
+      "kind": "IntegerLiteral",
       "offset": 12516,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12646,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12720,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12844,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 13016,
+      "offset": 13344,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 13031,
+      "offset": 13359,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 13398,
+      "offset": 13726,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 13434,
+      "offset": 13762,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 13613,
+      "offset": 13941,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 13887,
+      "offset": 14215,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 13919,
+      "offset": 14247,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 14202,
+      "offset": 14530,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 14293,
+      "offset": 14621,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 14350,
+      "offset": 14678,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 14393,
+      "offset": 14721,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 14533,
+      "offset": 14861,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 14870,
+      "offset": 15198,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 14995,
+      "offset": 15323,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 15086,
+      "offset": 15414,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 15137,
+      "offset": 15465,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 15454,
+      "offset": 15782,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 15496,
+      "offset": 15824,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 15607,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "Array",
-      "offset": 15671,
-      "length": 10,
-      "value": "[\"cuối\"]"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15763,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15857,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15949,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15972,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15982,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15993,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16004,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16762,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "BooleanLiteral",
-      "offset": 17030,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "BooleanLiteral",
-      "offset": 17136,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "BooleanLiteral",
-      "offset": 17546,
+      "offset": 15935,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 17602,
+      "offset": 15999,
       "length": 10,
       "value": "[\"cuối\"]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 17686,
+      "offset": 16091,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 17764,
+      "offset": 16185,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 17848,
+      "offset": 16277,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 17871,
+      "offset": 16300,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 17881,
+      "offset": 16310,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 17892,
+      "offset": 16321,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 17903,
+      "offset": 16332,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 18229,
+      "offset": 17090,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17358,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17464,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17874,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "Array",
+      "offset": 17930,
+      "length": 10,
+      "value": "[\"cuối\"]"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18014,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18092,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18176,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18199,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18209,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18220,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18231,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18557,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 18487,
+      "offset": 18815,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 18528,
+      "offset": 18856,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 18802,
+      "offset": 19130,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 18847,
+      "offset": 19175,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 18940,
+      "offset": 19268,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 19064,
+      "offset": 19392,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 19693,
+      "offset": 20021,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 19710,
+      "offset": 20038,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 19938,
+      "offset": 20266,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 20903,
+      "offset": 21231,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 20947,
+      "offset": 21275,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 21143,
+      "offset": 21471,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 21197,
+      "offset": 21525,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 21384,
+      "offset": 21712,
       "length": 2,
       "value": "-7"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 21590,
+      "offset": 21918,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 21644,
+      "offset": 21972,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 21831,
+      "offset": 22159,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 22000,
+      "offset": 22328,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 22013,
+      "offset": 22341,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 22026,
+      "offset": 22354,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 22037,
+      "offset": 22365,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 22162,
+      "offset": 22490,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 22173,
+      "offset": 22501,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 22184,
+      "offset": 22512,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 22753,
+      "offset": 23081,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 23592,
+      "offset": 23920,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 24112,
+      "offset": 24440,
       "length": 15,
       "value": "[\"ngày mốt\"]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 24132,
+      "offset": 24460,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 24139,
+      "offset": 24467,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 24143,
+      "offset": 24471,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 24702,
+      "offset": 25030,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 25056,
+      "offset": 25384,
       "length": 2,
       "value": "-7"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 25195,
+      "offset": 25523,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 25332,
+      "offset": 25660,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 25810,
+      "offset": 26138,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 25866,
+      "offset": 26194,
       "length": 10,
       "value": "[\"cuối\"]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 25945,
+      "offset": 26273,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 26020,
+      "offset": 26348,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 26682,
+      "offset": 27010,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 27309,
+      "offset": 27637,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 27690,
+      "offset": 28018,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 28005,
+      "offset": 28333,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 28048,
+      "offset": 28376,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 28090,
+      "offset": 28418,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 28235,
+      "offset": 28563,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 28339,
+      "offset": 28667,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 28443,
+      "offset": 28771,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 28636,
+      "offset": 28964,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 28682,
+      "offset": 29010,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 28733,
+      "offset": 29061,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 28757,
+      "offset": 29085,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 28779,
+      "offset": 29107,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 28809,
+      "offset": 29137,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 28832,
+      "offset": 29160,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 28883,
+      "offset": 29211,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 28967,
+      "offset": 29295,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 29215,
+      "offset": 29543,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 29606,
+      "offset": 29934,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 29619,
+      "offset": 29947,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 29839,
+      "offset": 30167,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 29878,
+      "offset": 30206,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 30079,
+      "offset": 30407,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 30118,
+      "offset": 30446,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 30315,
+      "offset": 30643,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 30354,
+      "offset": 30682,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 30547,
+      "offset": 30875,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 30586,
+      "offset": 30914,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 30679,
+      "offset": 31007,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 30814,
+      "offset": 31142,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 30858,
+      "offset": 31186,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 30901,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "Array",
-      "offset": 31120,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 31165,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 31348,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 31372,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 31478,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 31503,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 31609,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 31632,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 31735,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 31759,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 31866,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
-      "kind": "IntegerLiteral",
-      "offset": 31892,
+      "offset": 31229,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 32121,
+      "offset": 31448,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 32166,
+      "offset": 31493,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 31676,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 31700,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 31806,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 31831,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 31937,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 31960,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 32063,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 32087,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 32194,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 32220,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "Array",
+      "offset": 32449,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 32494,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 32210,
+      "offset": 32538,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 32394,
+      "offset": 32722,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 32418,
+      "offset": 32746,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 32524,
+      "offset": 32852,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 32549,
+      "offset": 32877,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 32655,
+      "offset": 32983,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 32678,
+      "offset": 33006,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 32781,
+      "offset": 33109,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 32805,
+      "offset": 33133,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 32912,
+      "offset": 33240,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 32938,
+      "offset": 33266,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 33071,
+      "offset": 33399,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 33119,
+      "offset": 33447,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 33191,
+      "offset": 33519,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 33218,
+      "offset": 33546,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 33607,
+      "offset": 33935,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 33652,
+      "offset": 33980,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 34049,
+      "offset": 34377,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 34395,
+      "offset": 34723,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 34410,
+      "offset": 34738,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 34423,
+      "offset": 34751,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 34437,
+      "offset": 34765,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 34453,
+      "offset": 34781,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 34469,
+      "offset": 34797,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 34876,
+      "offset": 35204,
       "length": 16,
       "value": "\"times:\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 34891,
+      "offset": 35219,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 34975,
+      "offset": 35303,
       "length": 31,
       "value": "\"classified:\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 35005,
+      "offset": 35333,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 35132,
+      "offset": 35460,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 35153,
+      "offset": 35481,
       "length": 42,
       "value": "\"Parsed DateTime: \""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 35194,
+      "offset": 35522,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 35245,
+      "offset": 35573,
       "length": 26,
       "value": "\"Unable to parse DateTime\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Dictionary",
-      "offset": 35473,
+      "offset": 35801,
       "length": 184,
       "value": "[(\"Prefix\", []), (\"Year\", []), (\"Month\", []), (\"Day\", []), (\"Hour\", []), (\"Minute\", []), (\"Second\", [])]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Dictionary",
-      "offset": 35713,
+      "offset": 36041,
       "length": 1290,
       "value": "[(\"Prefix\", \"\\b(sớm|sớm hơn|qua|trước|sau|tới)\\s+\\d{1,2}\\s+(?:giờ|phút|giây|năm|tháng|ngày)\\b|\\b\\d{1,2}\\s+(?:giờ|phút|giây|năm|tháng|ngày)\\s+(trước|sau|tới)\\b\"), (\"Year\", \"\\b(năm\\s+(\\d{4}|nay|này|trước|sau|tới|tiếp theo)\\b|\\b(\\d{1,2})\\s+tháng\\s+(0?[1-9]|10|11|12)\\s+năm\\s+(\\d{4}))\\b|\\b(\\d{1,2})\\s+năm\\b|\\b\\d{1,2}[-\/]\\d{1,2}[-\/]\\d{4}\\b|\\b\\d{4}[-\/]\\d{1,2}[-\/]\\d{1,2}\\b|\\b(?:\\d{1,2}?\\s*)?(?:tháng (một|hai|ba|tư|năm|sáu|bảy|tám|chín|mười một|mười hai|mười|1|2|3|4|5|6|7|8|9|10|11|12))(?:,)?(?:\\s*năm)?\\s+\\d{4}\\b\"), (\"Month\", \"\\b(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\\b|\\b\\d{1,2}[-\/]\\d{1,2}\\b\"), (\"Day\", \"\\b(?:td|tod|tmr|tmrw|sun|mon|tue|web|thu|fri|sat)\\b\"), (\"Hour\", \"\\b(\\d{1,2}:\\d{2}\\b|\\b\\d{1,2}:\\d{2}|\\b\\d{1,2}\\s+(buổi\\s+sáng|buổi\\s+chiều|chiều|sáng|am|pm|giờ|tiếng))\\b|(?:\\b(?:buổi sáng|buổi trưa|buổi chiều|buổi tối|buổi đêm|sáng|trưa|chiều|tối|đêm)\\b)\"), (\"Minute\", \"\\b\\d{1,3}\\s+phút\\b|\\b\\d{1,3}\\s+phút\\s+(trước|sau|tới)\\b|\\bphút\\s+\\d{1,2}\\b\"), (\"Second\", \"\\b\\d{1,2}\\s+giây\\b|\\b\\d{1,2}\\s+giây\\s+(trước|sau|tới)\\b|\\bgiây\\s+\\d{1,2}\\b\")]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 37046,
+      "offset": 37374,
       "length": 56,
       "value": "[\"Prefix\", \"Year\", \"Month\", \"Hour\", \"Minute\", \"Second\", \"Day\"]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 37556,
+      "offset": 37884,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 37585,
+      "offset": 37913,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 37805,
+      "offset": 38133,
       "length": 59,
       "value": "\"Invalid regular expression: \""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 37863,
+      "offset": 38191,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 38093,
+      "offset": 38421,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 38116,
+      "offset": 38444,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 38137,
+      "offset": 38465,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 38159,
+      "offset": 38487,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 38183,
+      "offset": 38511,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 38207,
+      "offset": 38535,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 38377,
+      "offset": 38705,
       "length": 6,
       "value": "\"Year\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 38388,
+      "offset": 38716,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 38442,
+      "offset": 38770,
       "length": 7,
       "value": "\"Month\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 38454,
+      "offset": 38782,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 38506,
+      "offset": 38834,
       "length": 5,
       "value": "\"Day\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 38516,
+      "offset": 38844,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 38574,
+      "offset": 38902,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 38711,
+      "offset": 39039,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 38831,
+      "offset": 39159,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 38956,
+      "offset": 39284,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 39312,
+      "offset": 39640,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 39497,
+      "offset": 39825,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 39722,
+      "offset": 40050,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 39778,
+      "offset": 40106,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 39816,
+      "offset": 40144,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 39918,
+      "offset": 40246,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 40089,
+      "offset": 40417,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 40127,
+      "offset": 40455,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 40196,
+      "offset": 40524,
       "length": 60,
       "value": "[\"tháng qua\", \"tháng trước\", \"tháng sau\", \"tháng tới\"]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 40387,
+      "offset": 40715,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 40443,
+      "offset": 40771,
       "length": 32,
       "value": "[\"tháng qua\", \"tháng trước\"]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 40553,
+      "offset": 40881,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 40617,
+      "offset": 40945,
       "length": 29,
       "value": "[\"tháng sau\", \"tháng tới\"]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 41054,
+      "offset": 41382,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 41325,
+      "offset": 41653,
       "length": 502,
       "value": "[\"jan\", \"feb\", \"mar\", \"apr\", \"may\", \"jun\", \"jul\", \"aug\", \"sep\", \"oct\", \"nov\", \"dec\"]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 41918,
+      "offset": 42246,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 42053,
+      "offset": 42381,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 42390,
+      "offset": 42718,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 42523,
+      "offset": 42851,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 42910,
+      "offset": 43238,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 42952,
+      "offset": 43280,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 43083,
+      "offset": 43411,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 43129,
+      "offset": 43457,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 43222,
+      "offset": 43550,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 43346,
+      "offset": 43674,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 43613,
+      "offset": 43941,
       "length": 9,
       "value": "[\"thứ\"]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 43663,
+      "offset": 43991,
       "length": 82,
       "value": "[\"tuần này\", \"tuần trước\", \"tuần sau\", \"tuần tới\", \"tuần tiếp theo\"]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 44365,
+      "offset": 44693,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 44409,
+      "offset": 44737,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 44465,
+      "offset": 44793,
       "length": 19,
       "value": "[\"tuần trước\"]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 44567,
+      "offset": 44895,
       "length": 19,
       "value": "[\"tuần trước\"]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 44619,
+      "offset": 44947,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 44673,
+      "offset": 45001,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 44860,
+      "offset": 45188,
       "length": 2,
       "value": "-7"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 44924,
+      "offset": 45252,
       "length": 50,
       "value": "[\"tuần sau\", \"tuần tới\", \"tuần tiếp theo\"]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 45057,
+      "offset": 45385,
       "length": 50,
       "value": "[\"tuần sau\", \"tuần tới\", \"tuần tiếp theo\"]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 45140,
+      "offset": 45468,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 45194,
+      "offset": 45522,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 45381,
+      "offset": 45709,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 45550,
+      "offset": 45878,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 45563,
+      "offset": 45891,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 45576,
+      "offset": 45904,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 45587,
+      "offset": 45915,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 45712,
+      "offset": 46040,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 45723,
+      "offset": 46051,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 45734,
+      "offset": 46062,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 46304,
+      "offset": 46632,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 46348,
+      "offset": 46676,
       "length": 12,
       "value": "[\"tod\", \"td\"]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 46401,
+      "offset": 46729,
       "length": 14,
       "value": "[\"tmr\", \"tmrw\"]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 46451,
+      "offset": 46779,
       "length": 43,
       "value": "[\"sun\", \"mon\", \"tue\", \"web\", \"thu\", \"fri\", \"sat\"]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 46604,
+      "offset": 46932,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 46802,
+      "offset": 47130,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 47331,
+      "offset": 47659,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 47462,
+      "offset": 47790,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 47798,
+      "offset": 48126,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 48496,
+      "offset": 48824,
       "length": 6,
       "value": "\"Hour\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 48507,
+      "offset": 48835,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 48550,
+      "offset": 48878,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 48592,
+      "offset": 48920,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 48737,
+      "offset": 49065,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 48841,
+      "offset": 49169,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 48945,
+      "offset": 49273,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 49138,
+      "offset": 49466,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 49184,
+      "offset": 49512,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 49406,
+      "offset": 49734,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 49452,
+      "offset": 49780,
       "length": 11,
       "value": "[\"morning\"]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 49505,
+      "offset": 49833,
       "length": 8,
       "value": "[\"noon\"]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 49553,
+      "offset": 49881,
       "length": 13,
       "value": "[\"afternoon\"]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "Array",
-      "offset": 49604,
+      "offset": 49932,
       "length": 19,
       "value": "[\"evening\", \"tối\"]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 49682,
+      "offset": 50010,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 49721,
+      "offset": 50049,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 49759,
+      "offset": 50087,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 49795,
+      "offset": 50123,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 49955,
+      "offset": 50283,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 49990,
+      "offset": 50318,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 50160,
+      "offset": 50488,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 50195,
+      "offset": 50523,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 50361,
+      "offset": 50689,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 50396,
+      "offset": 50724,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 50558,
+      "offset": 50886,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 50593,
+      "offset": 50921,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 50687,
+      "offset": 51015,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 50702,
+      "offset": 51030,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 50715,
+      "offset": 51043,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 50729,
+      "offset": 51057,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 50745,
+      "offset": 51073,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 50761,
+      "offset": 51089,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 51130,
+      "offset": 51458,
       "length": 74,
       "value": "\"==============================\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 51174,
+      "offset": 51502,
       "length": 29,
       "value": "\"=============================\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 51280,
+      "offset": 51608,
       "length": 16,
       "value": "\"times:\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 51295,
+      "offset": 51623,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 51379,
+      "offset": 51707,
       "length": 31,
       "value": "\"classified:\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "StringLiteral",
-      "offset": 51409,
+      "offset": 51737,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawDateParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 51536,
+      "offset": 51864,
       "length": 1,
       "value": "7"
     },
@@ -3848,42 +3858,42 @@
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/Parser\/NaturalParser.swift",
       "kind": "Array",
-      "offset": 254,
-      "length": 1264,
+      "offset": 359,
+      "length": 1275,
       "value": "[\"a\", \"à\", \"ả\", \"ã\", \"á\", \"ạ\", \"ă\", \"ằ\", \"ẳ\", \"ẵ\", \"ắ\", \"ặ\", \"â\", \"ầ\", \"ẩ\", \"ẫ\", \"ấ\", \"ậ\", \"e\", \"è\", \"ẻ\", \"ẽ\", \"é\", \"ẹ\", \"ê\", \"ề\", \"ể\", \"ễ\", \"ế\", \"ệ\", \"i\", \"ì\", \"ỉ\", \"ĩ\", \"í\", \"ị\", \"o\", \"ò\", \"ỏ\", \"õ\", \"ó\", \"ọ\", \"ô\", \"ồ\", \"ổ\", \"ỗ\", \"ố\", \"ộ\", \"ơ\", \"ờ\", \"ở\", \"ỡ\", \"ớ\", \"ợ\", \"u\", \"ù\", \"ủ\", \"ũ\", \"ú\", \"ụ\", \"ư\", \"ừ\", \"ử\", \"ữ\", \"ứ\", \"ự\", \"y\", \"ỳ\", \"ỷ\", \"ỹ\", \"ý\", \"ỵ\", \"đ\", \"A\", \"À\", \"Ả\", \"Ã\", \"Á\", \"Ạ\", \"Ă\", \"Ằ\", \"Ẳ\", \"Ẵ\", \"Ắ\", \"Ặ\", \"Â\", \"Ầ\", \"Ẩ\", \"Ẫ\", \"Ấ\", \"Ậ\", \"E\", \"È\", \"Ẻ\", \"Ẽ\", \"É\", \"Ẹ\", \"Ê\", \"Ề\", \"Ể\", \"Ễ\", \"Ế\", \"Ệ\", \"I\", \"Ì\", \"Ỉ\", \"Ĩ\", \"Í\", \"Ị\", \"O\", \"Ò\", \"Ỏ\", \"Õ\", \"Ó\", \"Ọ\", \"Ô\", \"Ồ\", \"Ổ\", \"Ỗ\", \"Ố\", \"Ộ\", \"Ơ\", \"Ờ\", \"Ở\", \"Ỡ\", \"Ớ\", \"Ợ\", \"U\", \"Ù\", \"Ủ\", \"Ũ\", \"Ú\", \"Ụ\", \"Ư\", \"Ừ\", \"Ử\", \"Ữ\", \"Ứ\", \"Ự\", \"Y\", \"Ỳ\", \"Ỷ\", \"Ỹ\", \"Ý\", \"Ỵ\", \"Đ\"]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/Parser\/NaturalParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 1633,
+      "offset": 1749,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/Parser\/NaturalParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 1677,
+      "offset": 1793,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/Parser\/NaturalParser.swift",
       "kind": "Array",
-      "offset": 1806,
+      "offset": 1922,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/Parser\/NaturalParser.swift",
       "kind": "Array",
-      "offset": 2005,
+      "offset": 2121,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/Parser\/NaturalParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 2034,
+      "offset": 2150,
       "length": 1,
       "value": "0"
     },
@@ -4012,6 +4022,20 @@
       "offset": 3449,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/Model\/User.swift",
+      "kind": "StringLiteral",
+      "offset": 140,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/Model\/User.swift",
+      "kind": "StringLiteral",
+      "offset": 173,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/Parser\/SecondParser.swift",
@@ -4267,157 +4291,157 @@
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawAssigneeParser.swift",
-      "kind": "StringLiteral",
-      "offset": 140,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawAssigneeParser.swift",
-      "kind": "StringLiteral",
-      "offset": 166,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawAssigneeParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 444,
+      "offset": 597,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawAssigneeParser.swift",
       "kind": "StringLiteral",
-      "offset": 978,
+      "offset": 1066,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawAssigneeParser.swift",
+      "kind": "StringLiteral",
+      "offset": 1118,
       "length": 3,
       "value": "\"@\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawAssigneeParser.swift",
       "kind": "StringLiteral",
-      "offset": 984,
-      "length": 35,
+      "offset": 1124,
+      "length": 22,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawAssigneeParser.swift",
       "kind": "StringLiteral",
-      "offset": 998,
+      "offset": 1138,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawAssigneeParser.swift",
       "kind": "StringLiteral",
-      "offset": 1018,
+      "offset": 1145,
       "length": 5,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawAssigneeParser.swift",
       "kind": "StringLiteral",
-      "offset": 1022,
-      "length": 36,
+      "offset": 1149,
+      "length": 23,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawAssigneeParser.swift",
       "kind": "StringLiteral",
-      "offset": 1036,
+      "offset": 1163,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawAssigneeParser.swift",
       "kind": "StringLiteral",
-      "offset": 1057,
+      "offset": 1171,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawAssigneeParser.swift",
       "kind": "StringLiteral",
-      "offset": 1081,
+      "offset": 1199,
       "length": 27,
       "value": "\"(?<=\\s|^)\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawAssigneeParser.swift",
       "kind": "StringLiteral",
-      "offset": 1104,
+      "offset": 1222,
       "length": 1,
       "value": "\"\\b\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawAssigneeParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 1371,
+      "offset": 1533,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawAssigneeParser.swift",
       "kind": "Array",
-      "offset": 1427,
+      "offset": 1611,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawAssigneeParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 1494,
+      "offset": 1678,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawAssigneeParser.swift",
       "kind": "Array",
-      "offset": 1501,
+      "offset": 1685,
       "length": 15,
       "value": "[\"cho\", \"với\"]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawAssigneeParser.swift",
       "kind": "Array",
-      "offset": 1519,
+      "offset": 1703,
       "length": 14,
       "value": "[\"for\", \"with\"]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawAssigneeParser.swift",
       "kind": "StringLiteral",
-      "offset": 1560,
+      "offset": 1744,
       "length": 3,
       "value": "\"@\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawAssigneeParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 1977,
+      "offset": 2161,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawAssigneeParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 2078,
+      "offset": 2262,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawAssigneeParser.swift",
       "kind": "Array",
-      "offset": 2085,
+      "offset": 2269,
       "length": 8,
       "value": "[\"tôi\"]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawAssigneeParser.swift",
       "kind": "Array",
-      "offset": 2096,
+      "offset": 2280,
       "length": 6,
       "value": "[\"me\"]"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/MacawAssigneeParser.swift",
+      "kind": "StringLiteral",
+      "offset": 2511,
+      "length": 6,
+      "value": "\"name\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/iOS\/MacawDateParserFramework\/MacawDateParser\/Sources\/Parser\/MonthParser.swift",

@@ -18,43 +18,43 @@
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		wFJfGQzmi4O9sv7vKj67bdVqWro=
+		GB3fGvEEsp0tWrMe6LktW6QKbKM=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		9eo5JtgJBuGSJNfJLmOqpDxtR80=
+		qk+ymweL/+w+zburmHxvzIwj1Kg=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		rAW8KT5tymG+Kw1o/xnbnx9vRcA=
+		8uUGfrtQ2ufFSNhNVyp7NLZkUf8=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		9eo5JtgJBuGSJNfJLmOqpDxtR80=
+		qk+ymweL/+w+zburmHxvzIwj1Kg=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2KYz1FX5tdviHRpyouVJgUECFd4=
+		FSbpy1+BWQlwZf4vQoKObGC/yns=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		wFJfGQzmi4O9sv7vKj67bdVqWro=
+		GB3fGvEEsp0tWrMe6LktW6QKbKM=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		aZghdjoExVZQmW5EOo1BSpVAO3Q=
+		DiDY92iZtW1xKMTQXriG/XPsUi4=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		lcoQtgTfiWlfWPA119uwl9hvBOA=
+		TNLZ7uxGHp/qYJ/7pq1qpcoJGbw=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		aZghdjoExVZQmW5EOo1BSpVAO3Q=
+		DiDY92iZtW1xKMTQXriG/XPsUi4=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		urteNOts+n7AZ6wVuJezb4w2lrE=
+		r41ehMReeuqgIYgA5sOEnQ3lqDE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3l24+XZ6JH5lmmKxeXfh+qrhMf7Ug4m4+4IebfBaTuk=
+			y/SSDpWFb9/DxVNUrfmPYYoj7mot+YGMY91ORBEXPGE=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VaRAeIZKWZ75N5N566i0b+a36f69bY5uXGKHOiCAdw4=
+			gph+c5Opc2EglX+a4mFwPla98Y+cB3Mx2X+GhiBm73Y=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			u0JwK6xVFvWyAA6tY3IAs2+MJ+S1IhuI7f+y1ByoFNw=
+			Au53gmsnsZ9fM0FK1k+JY16q6s5IJY5dNmwdiptt9WI=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VaRAeIZKWZ75N5N566i0b+a36f69bY5uXGKHOiCAdw4=
+			gph+c5Opc2EglX+a4mFwPla98Y+cB3Mx2X+GhiBm73Y=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NExDLdmmAPAtjg5bJ0C07IBdqoVxX9zYHcsiX3fAFwI=
+			/3OqsGTbrrbdqUCSzKs6uuUU080F9ZQIOapzw5lk56I=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3l24+XZ6JH5lmmKxeXfh+qrhMf7Ug4m4+4IebfBaTuk=
+			y/SSDpWFb9/DxVNUrfmPYYoj7mot+YGMY91ORBEXPGE=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qZNFh0AyiDM+1KSRfS2Mu1nenjwHbJyBD3YvPnl0HhE=
+			1nfDCWTfDb/4XPQIv8Sf0KpHb2FycnXPqJT8qv9+Mqo=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Emq29jSN3VP2lMNSWuMessgHesS3ChYXymgisUOaDtA=
+			Tag/vbXyJBLbKyPSgvqjczE+7wfe2nGt6mfqogz63ds=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qZNFh0AyiDM+1KSRfS2Mu1nenjwHbJyBD3YvPnl0HhE=
+			1nfDCWTfDb/4XPQIv8Sf0KpHb2FycnXPqJT8qv9+Mqo=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ms7dwewfEbcSFv2kQAzQPcaFj+5HY9m3nltWVpupAUA=
+			ocQixFrkthhM6kWOOZDa6WIXQmfcAi773en/1auUz0s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
