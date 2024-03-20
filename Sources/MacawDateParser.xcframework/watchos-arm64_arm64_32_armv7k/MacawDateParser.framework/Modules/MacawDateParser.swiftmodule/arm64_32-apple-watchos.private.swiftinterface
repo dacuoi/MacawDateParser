@@ -9,6 +9,19 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers public class MacawDateParser {
+  public static func detectTimeUsingRegex_EN(in text: Swift.String) -> [Swift.String]
+  public static func detectTimeUsingRegex_VI(in text: Swift.String) -> [Swift.String]
   public static func stringToDate(_ timeString: Swift.String) -> Foundation.Date?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class NaturalParser {
+  public static func containsVietnameseCharacters(for string: Swift.String) -> Swift.Bool
+  @objc deinit
+}
+public struct User {
+  public init(userId: Swift.String, name: Swift.String)
+}
+@_hasMissingDesignatedInitializers public class MacawAssigneeParser {
+  public static func stringToAssignee(_ timeString: Swift.String, assignedNames: [MacawDateParser.User], myUserInfo: MacawDateParser.User, isVietnamese: Swift.Bool = false) -> [MacawDateParser.User]
   @objc deinit
 }

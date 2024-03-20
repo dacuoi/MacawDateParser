@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		JQ0oKcihEGzkR79KFb6tox6Wit4=
+		wFJfGQzmi4O9sv7vKj67bdVqWro=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		3VdhIQT7m8H90Mv7j3jkounxSR0=
+		9eo5JtgJBuGSJNfJLmOqpDxtR80=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		3VdhIQT7m8H90Mv7j3jkounxSR0=
+		9eo5JtgJBuGSJNfJLmOqpDxtR80=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		M5/5+qeSSKEyIW8tNCx9Xw8/ZBE=
+		2KYz1FX5tdviHRpyouVJgUECFd4=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		JQ0oKcihEGzkR79KFb6tox6Wit4=
+		wFJfGQzmi4O9sv7vKj67bdVqWro=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		mqir+7+VhDivxznEkqmkUhVSSFA=
+		aZghdjoExVZQmW5EOo1BSpVAO3Q=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		mqir+7+VhDivxznEkqmkUhVSSFA=
+		aZghdjoExVZQmW5EOo1BSpVAO3Q=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ZcYvbx619zIOgQG2Fh/L1hXDN9Q=
+		urteNOts+n7AZ6wVuJezb4w2lrE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			v0wBbfJ5dJ0SpTugLBAa1wr0wGxc3IcZ/Gge3RWS8RM=
+			3l24+XZ6JH5lmmKxeXfh+qrhMf7Ug4m4+4IebfBaTuk=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mh0b1g99e0wbouW+eOLN+1kscBZKK9r1fchsEhhgwcI=
+			VaRAeIZKWZ75N5N566i0b+a36f69bY5uXGKHOiCAdw4=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mh0b1g99e0wbouW+eOLN+1kscBZKK9r1fchsEhhgwcI=
+			VaRAeIZKWZ75N5N566i0b+a36f69bY5uXGKHOiCAdw4=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gTByLE7GmK1kUaz/evEOmKGpliYSwUl29sJPo8JabOo=
+			NExDLdmmAPAtjg5bJ0C07IBdqoVxX9zYHcsiX3fAFwI=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v0wBbfJ5dJ0SpTugLBAa1wr0wGxc3IcZ/Gge3RWS8RM=
+			3l24+XZ6JH5lmmKxeXfh+qrhMf7Ug4m4+4IebfBaTuk=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jJw3D11kHyalECR/eCH/sw0LQZ7/6dvujyvgX1ZNfx4=
+			qZNFh0AyiDM+1KSRfS2Mu1nenjwHbJyBD3YvPnl0HhE=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jJw3D11kHyalECR/eCH/sw0LQZ7/6dvujyvgX1ZNfx4=
+			qZNFh0AyiDM+1KSRfS2Mu1nenjwHbJyBD3YvPnl0HhE=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gDClIqONJ0TUvsAxHWQJt/h1b8DhsKAtpmF2Jee+i6M=
+			Ms7dwewfEbcSFv2kQAzQPcaFj+5HY9m3nltWVpupAUA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
