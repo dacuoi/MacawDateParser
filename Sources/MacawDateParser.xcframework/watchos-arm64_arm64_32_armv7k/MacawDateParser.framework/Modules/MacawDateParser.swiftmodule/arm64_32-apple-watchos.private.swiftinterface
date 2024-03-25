@@ -9,9 +9,9 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers public class MacawDateParser {
-  public static func detectTimeUsingRegex_EN(in text: Swift.String) -> [Swift.String]
-  public static func detectTimeUsingRegex_VI(in text: Swift.String) -> [Swift.String]
-  public static func stringToDate(_ timeString: Swift.String) -> Foundation.Date?
+  public static func detectTimeUsingRegex_EN(in text: Swift.String) -> [(text: Swift.String, range: Foundation.NSRange)]
+  public static func detectTimeUsingRegex_VI(in text: Swift.String) -> [(text: Swift.String, range: Foundation.NSRange)]
+  public static func stringToDate(_ timeString: Swift.String, utcOffset: Swift.Int = 0) -> (date: Foundation.Date, ranges: [Foundation.NSRange])?
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class NaturalParser {
@@ -19,6 +19,6 @@ import _SwiftConcurrencyShims
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class MacawAssigneeParser {
-  public static func stringToAssignee(_ timeString: Swift.String, assignedNames: [[Swift.String : Swift.String]], myUserInfo: [Swift.String : Swift.String], isVietnamese: Swift.Bool = false) -> [[Swift.String : Swift.String]]
+  public static func stringToAssignee(_ timeString: Swift.String, assignedNames: [[Swift.String : Swift.String]], myUserInfo: [Swift.String : Swift.String], isVietnamese: Swift.Bool = false) -> [(user: [Swift.String : Swift.String], range: Foundation.NSRange)]
   @objc deinit
 }
