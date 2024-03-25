@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		dd03J/c+ur9EG+d8coGU5LDG9Fc=
+		uvaq/vNvO+icpER8bYIdbaYM+WA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -29,70 +29,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y/SSDpWFb9/DxVNUrfmPYYoj7mot+YGMY91ORBEXPGE=
+			kXjgdN0RBs5QaqkFRM9YPNBuMJO4hArtj+EIP21xVcQ=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DruHCDO+zkj1p2yGh9dTl0L+O52Q0IQqZi0dNxKGpqk=
+			1E1u6Dff2hmtmLkWr+kwknEG2yTHvA8NhOCz8pn0QuM=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1YpNOTvePQuGDfz0tm1n4DDbeM+rJP/9a+fvcOj/uTU=
+			M9d+C0Cyfy318hjTep9AonYK3kQYaMjr5TUFQSVG8LQ=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DruHCDO+zkj1p2yGh9dTl0L+O52Q0IQqZi0dNxKGpqk=
+			1E1u6Dff2hmtmLkWr+kwknEG2yTHvA8NhOCz8pn0QuM=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iYABvRj14pYzuEAZnxF+TUEiNdKW5LcV2ifCP5+Pe7I=
+			/ZFTghJjIF579dmCEfeLUNY/MqwI9MAFxQIY/2LzRI8=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y/SSDpWFb9/DxVNUrfmPYYoj7mot+YGMY91ORBEXPGE=
+			kXjgdN0RBs5QaqkFRM9YPNBuMJO4hArtj+EIP21xVcQ=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aWXewuUdAxZcJAgjXMuNT9dSvyo8JCXYUPFW9zN7IXM=
+			qhSljbPyp9Hh4bm1VRfs0J05Bm2vM+rihRWsk0B2YAA=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			20wI/WX4/K1C8/GI+P9+uzzq1EBWyEsmAoFKpn0w8rc=
+			8ac/hv/36q10L3jeYFpdjxKIk2V52HRs+S/xLc58aZ4=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aWXewuUdAxZcJAgjXMuNT9dSvyo8JCXYUPFW9zN7IXM=
+			qhSljbPyp9Hh4bm1VRfs0J05Bm2vM+rihRWsk0B2YAA=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7BRir5ihKyaMwivKtmPhEyAXM5pGofPgZfzkS404+Oc=
+			t+ysn7NnMZhNM0naf5n10d3EYMKR8O7gYPlHFfFGKyI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -106,7 +106,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oLzk/oyUsgh67lSJnxOanBB+iBpgVgXXxYbZkPK85Q0=
+			rtbUsKMpFhjoZ5NQpdNhfgTDqvTgTy5pmv8ELVGigGo=
 			</data>
 		</dict>
 	</dict>

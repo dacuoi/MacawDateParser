@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		g6GRNwx33BQkTrA+1+Lgwho/x4A=
+		SRL7rhgrZDmKI7oQ4kij/+ymRe0=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		GB3fGvEEsp0tWrMe6LktW6QKbKM=
+		UNAb+lw9IVWJh0KdBS35ADdzcf8=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		AD8DnZJQVvwxOhPs0qDsUjhmGPw=
+		EhO7R59CkhgcSS2Y2rIBshhYaxI=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		k5wTzwN2ja0hNwzGgmKu+vFvnW0=
+		O6oN3TlOCoATuS2KduYnTAKrfUE=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		AD8DnZJQVvwxOhPs0qDsUjhmGPw=
+		EhO7R59CkhgcSS2Y2rIBshhYaxI=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		VuMSHRd4WheYf9a1lgsI8wWnOTw=
+		3UAZHSLTGtY6fFI7offcXZIHxgA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y/SSDpWFb9/DxVNUrfmPYYoj7mot+YGMY91ORBEXPGE=
+			kXjgdN0RBs5QaqkFRM9YPNBuMJO4hArtj+EIP21xVcQ=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TJiXL4JCYimc2LzEz+h9g9Jfccy7ChN/vDKtoJknvOA=
+			di5baqmgQxTUqth+00rbc9rGQkutGSOif7KIFeW0vEo=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7ofuAWfdKDEfXjNN0cg8TJeOY3iYLaNU1cmr8N9ViR0=
+			Yn4UZ5hTCQUA3/iWP/JIyXruU+/XPioskEveH3Fgxd0=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TJiXL4JCYimc2LzEz+h9g9Jfccy7ChN/vDKtoJknvOA=
+			di5baqmgQxTUqth+00rbc9rGQkutGSOif7KIFeW0vEo=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zmU28Ka4q1sEGMBeREDJkKV9aUln10+BnO6SWG5LBEQ=
+			4Q32cGnemBinI0kwS1fd5hgRovA1Y+87ZMcW69LNSo8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
