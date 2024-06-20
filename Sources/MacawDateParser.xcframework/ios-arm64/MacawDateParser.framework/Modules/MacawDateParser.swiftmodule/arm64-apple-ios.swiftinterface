@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MacawDateParser
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MacawDateParser
 import Foundation
 @_exported import MacawDateParser
 import Swift
@@ -9,9 +8,9 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers public class MacawDateParser {
-  public static func detectTimeUsingRegex_EN(in text: Swift.String) -> [Swift.String]
-  public static func detectTimeUsingRegex_VI(in text: Swift.String) -> [Swift.String]
-  public static func stringToDate(_ timeString: Swift.String) -> Foundation.Date?
+  public static func detectTimeUsingRegex_EN(in text: Swift.String) -> [(text: Swift.String, range: Foundation.NSRange)]
+  public static func detectTimeUsingRegex_VI(in text: Swift.String) -> [(text: Swift.String, range: Foundation.NSRange)]
+  public static func stringToDate(_ timeString: Swift.String) -> (date: Foundation.Date, ranges: [Foundation.NSRange])?
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class NaturalParser {
@@ -19,6 +18,6 @@ import _SwiftConcurrencyShims
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class MacawAssigneeParser {
-  public static func stringToAssignee(_ timeString: Swift.String, assignedNames: [[Swift.String : Swift.String]], myUserInfo: [Swift.String : Swift.String], isVietnamese: Swift.Bool = false) -> [[Swift.String : Swift.String]]
+  public static func stringToAssignee(_ timeString: Swift.String, assignedNames: [[Swift.String : Swift.String]], myUserInfo: [Swift.String : Swift.String], isVietnamese: Swift.Bool = false) -> [(user: [Swift.String : Swift.String], range: Foundation.NSRange)]
   @objc deinit
 }

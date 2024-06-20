@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/MacawDateParser-Swift.h</key>
 		<data>
-		C1CANnZqMgqKk0DXn27uhGNycHA=
+		nAAybgU6YFkWpbEMd880rNHggus=
 		</data>
 		<key>Headers/MacawDateParser.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qrMi66plGFUPhD4rh+ngyjepVk8=
+		CGvaWtaqnfPqEiu/cKnW1d3bDPk=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
 		<data>
-		GB3fGvEEsp0tWrMe6LktW6QKbKM=
+		RtbJPCveXP5yCf9lPjtTbHSJ5xI=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
-		ILi1yLLpb6t92VanJZKsctoDWxE=
+		SeBCkdjTloHf+fRhgpnbUc/w0uY=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
 		<data>
-		dke5nz97wO+ARvshKQ1HwjU88qg=
+		SQRICNdJJkcwV2UtXXtXDom38K0=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		ILi1yLLpb6t92VanJZKsctoDWxE=
+		SeBCkdjTloHf+fRhgpnbUc/w0uY=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		oUP9KthkrjS7UdMsSai3/ovCMVM=
+		1FZ2zZ28E6H/SuV+Xe1WzEQNoG4=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<data>
-		GB3fGvEEsp0tWrMe6LktW6QKbKM=
+		RtbJPCveXP5yCf9lPjtTbHSJ5xI=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
-		lg/tQWPLhoW6j3doANuUHkHv4rk=
+		98a7JGfSA1zdgbAVsV+2axOzmuE=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
 		<data>
-		ZkwV1kigOKGj9llYPwRmlCtyhpw=
+		eIbjPFUD3Hm+UNuBF3JixWTMlec=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		lg/tQWPLhoW6j3doANuUHkHv4rk=
+		98a7JGfSA1zdgbAVsV+2axOzmuE=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		rhleQbMgXibEFgWu38WG3tX6YF8=
+		pegjbjm5/9w7bNpC0DktbxEQ9wE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4NWD+v2zeqXxfmSVgpAGS8K8q/LY9r/p47T7mmTP9ZM=
+			lb4IHWbet7ANOCzefJfVHk8IA1haAxGaIJ3IxU/YHi4=
 			</data>
 		</dict>
 		<key>Headers/MacawDateParser.h</key>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y/SSDpWFb9/DxVNUrfmPYYoj7mot+YGMY91ORBEXPGE=
+			DYbw/xUH4GYVKgzDYC6ht7ppDvBbCk3AWifHI2InBDU=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QEUdEhIgTMVOrOCh1DDvKeYDOmOwxtM2UsHm8x2jqfo=
+			Kpgn4qHKhk4HvuQJGZ18qlPKy4uN+lGiwiHadpghqYU=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d74CjNSFJF2OPO3i9DMQYdtQVZwiI66Nit8d+wZj40c=
+			IPU44TsjRBOlRQxAC6s3YFGix09us21OqNUT2uPcZ1E=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-watchos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QEUdEhIgTMVOrOCh1DDvKeYDOmOwxtM2UsHm8x2jqfo=
+			Kpgn4qHKhk4HvuQJGZ18qlPKy4uN+lGiwiHadpghqYU=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-watchos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LAKVKP8vbDy9tYfN28vx7DEPiur/L2NaQ+s4AATEO+4=
+			E93Z1k/YQwX4wpOTGYBU7Hx6reS+wT7eolCzMxDmX/A=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y/SSDpWFb9/DxVNUrfmPYYoj7mot+YGMY91ORBEXPGE=
+			DYbw/xUH4GYVKgzDYC6ht7ppDvBbCk3AWifHI2InBDU=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			twqBN7PPgvayRJXv1c38pLLvZ7yMhL3BrJlA32MKLRo=
+			2sNSSWeFbQUQ8MCyFrShVh5CkQbu5MBt3q5BDC6+wro=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+e/8SfoTGnhxBJknHbGccWojNJ6pJb+6O/XdMYwWgxQ=
+			uIs5JiE3FmPigL2DwnZnften7CAKN+1PdMuD8dKCf0Q=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-watchos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			twqBN7PPgvayRJXv1c38pLLvZ7yMhL3BrJlA32MKLRo=
+			2sNSSWeFbQUQ8MCyFrShVh5CkQbu5MBt3q5BDC6+wro=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DwqT1iKX+Gpp4txQiW+WVADWaasK3/uon4i/dSHwM5k=
+			n21qnMh2xFOepNlamkjoYR1fk1crBp8SktI6buX0+VM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

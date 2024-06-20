@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/MacawDateParser-Swift.h</key>
 		<data>
-		fLr3pqUL1xQdGRdhlw3PiVZ33kg=
+		wIC/y2hZd4d9dIXQSTGbX1wljhI=
 		</data>
 		<key>Headers/MacawDateParser.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		g6GRNwx33BQkTrA+1+Lgwho/x4A=
+		2BTjtzc7wvmwyvuZx4aNcIbqH1w=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		GB3fGvEEsp0tWrMe6LktW6QKbKM=
+		RtbJPCveXP5yCf9lPjtTbHSJ5xI=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		AD8DnZJQVvwxOhPs0qDsUjhmGPw=
+		kS5Ug47HWyvgS05O5KPRGfB/6gc=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		k5wTzwN2ja0hNwzGgmKu+vFvnW0=
+		g4CbWzdSZ7VCRvgmEbZ4PXegsss=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		AD8DnZJQVvwxOhPs0qDsUjhmGPw=
+		kS5Ug47HWyvgS05O5KPRGfB/6gc=
 		</data>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		VuMSHRd4WheYf9a1lgsI8wWnOTw=
+		U+WsANZwW5/C+z1tCt2REvUDylw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pHSXmfHu95M45nrcOSpwSGJqfeL/NSzatiJ+jR2E1Jw=
+			LXVX+/+ZVY3Q2j8F7ChgQISgP2ixExjASr9GINk4hGo=
 			</data>
 		</dict>
 		<key>Headers/MacawDateParser.h</key>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y/SSDpWFb9/DxVNUrfmPYYoj7mot+YGMY91ORBEXPGE=
+			DYbw/xUH4GYVKgzDYC6ht7ppDvBbCk3AWifHI2InBDU=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TJiXL4JCYimc2LzEz+h9g9Jfccy7ChN/vDKtoJknvOA=
+			VlAK+pGpQw0w4plgIQLEoQekFqHw4yHy+tFQzNUIAdk=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7ofuAWfdKDEfXjNN0cg8TJeOY3iYLaNU1cmr8N9ViR0=
+			TtoqMDkXDshptRrvXY9Q+3ceA4Rdul0uWMeGEJxQtzQ=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TJiXL4JCYimc2LzEz+h9g9Jfccy7ChN/vDKtoJknvOA=
+			VlAK+pGpQw0w4plgIQLEoQekFqHw4yHy+tFQzNUIAdk=
 			</data>
 		</dict>
 		<key>Modules/MacawDateParser.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zmU28Ka4q1sEGMBeREDJkKV9aUln10+BnO6SWG5LBEQ=
+			VE8Gl7lZg6XTFETcGVacVS40UWfFFrlZiuDMJNfnz4k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
